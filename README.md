@@ -1,4 +1,4 @@
-<img src="https://gitlab.com/tabrezakhtar/guitar-db/-/raw/master/client/public/guitar-db.png" alt="Image of Layout" width="600px"/>
+<img src="https://gitlab.com/tabrezakhtar/mobile-first-layout/-/raw/master/client/public/recording.gif" alt="Image of Layout" width="600px"/>
 
 A starter app project for a mobile first layout
 
