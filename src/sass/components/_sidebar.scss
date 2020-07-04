@@ -1,0 +1,19 @@
+.sidebar {
+  display: flex;
+  background-color: $colour-blue-4;
+  flex: 1 0 calc(20rem);
+  flex-direction: column;
+
+  @media (max-width: 550px) {
+    flex: 1 0 calc(10rem);
+  }
+
+  &__item {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  &__item:hover {
+    background-color: red;
+  }
+}

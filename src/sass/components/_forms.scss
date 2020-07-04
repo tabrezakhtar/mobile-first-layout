@@ -1,0 +1,22 @@
+.form {
+
+  &__group {
+    margin: 2rem;
+  }
+
+  &__label {
+    display: inline-block;
+    width: 10rem;
+  }
+
+  &__input {
+    width: 20rem;
+    height: 3rem;
+    padding: 1rem;
+  }
+
+  &__button {
+    width: 10rem;
+    height: 3rem;
+  }
+}
