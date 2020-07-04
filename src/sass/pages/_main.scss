@@ -3,8 +3,30 @@
   flex-direction: column;
 }
 
-main {
+.main {
   background-color: $colour-blue-1;
   display: flex;
   flex-wrap: wrap;
+  height: calc(100vh - 11.5rem);
+  padding: 1rem;
+
+  @media (min-width: 320px) {
+    background-color: $colour-blue-2;
+  }
+
+  @media (min-width: 480px) {
+    background-color: $colour-blue-3;
+  }
+
+  @media (min-width: 640px) {
+    background-color: $colour-blue-4;
+  }
+
+  @media (min-width: 720px) {
+    background-color: $colour-blue-5;
+  }
+
+  @media (min-width: 960px) {
+    background-color: $colour-pinkish;
+  }
 }
